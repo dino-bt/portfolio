@@ -1,0 +1,71 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.inlineBlock{
+
+  display: flex;
+  margin-top: 100px;
+}
+
+.title {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.bodyAbout {
+
+  margin-top: 50px;
+}
+
+.GitHublink {
+margin-top:200px ;
+  text-align: center;
+}
+
+.projectCard{
+  width :300px
+  
+}
+
+.projectLearning{
+
+margin-left: 200px;
+
+}
+
+.projectCatalogue{
+
+  margin-left : 270px;
+}
+
+
+.buttonProject { color: black; 
+  
+}
+
+.contactWidth{
+
+  width: 300px;
+}
+
+.contactCard{
+  
+  
+  align-content: center;
+  margin-left: 600px;
+  margin-top:250px ;
+}
