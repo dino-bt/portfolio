@@ -8,15 +8,15 @@ const Header = () => {
           <nav className="navbar navbar-dark bg-dark">
             <div className="container-fluid">
               <Link href="/">
-                <a class="navbar-brand">ABOUT</a>
+                <a className="navbar-brand">ABOUT</a>
               </Link>
 
               <Link href="/projects">
-                <a class="navbar-brand">PROJECTS</a>
+                <a className="navbar-brand">PROJECTS</a>
               </Link>
 
               <Link href="/contact">
-                <a class="navbar-brand">CONTACT</a>
+                <a className="navbar-brand">CONTACT</a>
               </Link>
             </div>
           </nav>

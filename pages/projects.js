@@ -10,16 +10,16 @@ const Projects = () => {
       <div className="inlineBlock">
         <div className="projectCatalogue">
           <div className="projectCard">
-            <img src="/tanktop.jpg" class="card-img-top" />
-            <div class="card-body">
-              <h5 class="card-title">Catalogue project</h5>
+            <img src="/tanktop.jpg" className="card-img-top" />
+            <div className="card-body">
+              <h5 className="card-title">Catalogue project</h5>
               <p>
                 Online sport wear shopping catalogue, created with vanilla
                 Javascript, HTML, CSS
               </p>
               <a
                 href="https://catalogue-dino.herokuapp.com/"
-                class="btn btn-primary"
+                className="btn btn-primary"
               >
                 GO TO PROJECT
               </a>
@@ -28,16 +28,16 @@ const Projects = () => {
         </div>
         <div className="projectLearning">
           <div className="projectCard">
-            <img src="/learning.jpeg" class="card-img-top" />
-            <div class="card-body">
-              <h5 class="card-title">Track your learning project</h5>
+            <img src="/learning.jpeg" className="card-img-top" />
+            <div className="card-body">
+              <h5 className="card-title">Track your learning project</h5>
               <p>
                 Full Authentication Login and Register website that tracks your
                 learning using Django and Python{" "}
               </p>
               <a
                 href="https://dino-learning-log.herokuapp.com/"
-                class="btn btn-primary"
+                className="btn btn-primary"
               >
                 GO TO PROJECT
               </a>
@@ -53,7 +53,7 @@ const Projects = () => {
 
       <p className="GitHublink">
         Here is my shopping cart Project on github{" "}
-        <a class="gitHub" href="https://github.com/dino-bt/online_store.git">
+        <a className="gitHub" href="https://github.com/dino-bt/online_store.git">
           GitHub
         </a>{" "}
         created with HTML CSS and JavaScript
