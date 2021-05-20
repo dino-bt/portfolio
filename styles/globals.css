@@ -39,17 +39,25 @@ margin-top:200px ;
 .projectCard{
   width :300px
   
+  
 }
-
+img {height:200px;}
 .projectLearning{
 
-margin-left: 200px;
+margin-left: 50px;
 
+}
+
+.card-body{
+  height: 300px
+}
+.projectCard{
+  height: 300px;
 }
 
 .projectCatalogue{
 
-  margin-left : 270px;
+  margin-left : 50px;
 }
 
 

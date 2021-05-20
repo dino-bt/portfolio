@@ -12,22 +12,19 @@ export default function About() {
         <h1 className="title"> Daniel (Dino) Ben Tovim </h1>
 
         <p className="bodyAbout">
-          Hello my name my real name is Daniel but everyone calls me Dino. I was
-          born in Israel and grew up in South Africa. I moved back to Israel at
-          the age of 17 were I matriculated. I moved back five years ago to
-          finish my Bachelor of Arts in Music Production and Sound engineering.
-          Music has been a big part of life. I have been in the events industry
-          and Dj’ing for most of my professional life. I produce mainly
-          electronic music. I have organized small events as well. In the last
-          couple of months I have been interested in programing. I started to
-          learn Python and built my first web app using Django.I then decided
-          that Web Development is the path that I would like to pursue and
-          enrolled in the Hyperion Dev 3 month bootcamp.
-          <br />I believe that in life we need balance I have not given up my
-          passion for music but added a new passion to the list I believe that
-          we should not limit ourselves into believing that we can only be
-          focused on one path the mind is capable of doing extraordinary things,
-          if we are willing to take the leap.
+          Hello, my name is Dino Ben Tovim, I have currently finished a Full
+          Stack Web Developer Bootcamp Course at Hyperion dev. I have finished
+          with avg grade of 98%. I have learnt a lot in these last three months
+          and have built projects. I have learnt how to write HTML, CSS,
+          Javascript, ExpressJS, NodeJs, React Native/Next and Mongoose/MongoDB.
+          I am ready to start a new career in the IT sector. This is a new
+          venture for me as I have been in music and performance arts for most
+          of my professional life. When covid-19 happened I decided after some
+          time that I want to explore another avenue in my life and decided to
+          learn Web Development. I made a successful career out of my Djing but
+          sometimes in life things change and they are out of your control. I am
+          hardworking and persistent and whatever life throws at me I will
+          finish what I started this is my way of life.
         </p>
         <br />
         <style jsx>{`
