@@ -2,11 +2,24 @@ import Head from "next/head";
 import Image from "next/image";
 import Header from "../components/Header";
 
+
 //the index acts as the hompage About
 
 export default function About() {
   return (
     <div>
+   
+    
+    
+   
+    
+ 
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-197620444-1"></script>
+
+
+
+
+
       <Header />
       <div>
         <h1 className="title"> Daniel (Dino) Ben Tovim </h1>
