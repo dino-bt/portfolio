@@ -2,27 +2,29 @@ import Link from "next/link";
 // I import Link so that I can link it to all the routes.
 const Header = () => {
   return (
-    <header>
-      <div className="menu">
-        <div className="justify-content-center align-items-center">
-          <nav className="navbar navbar-dark bg-dark">
-            <div className="container-fluid">
-              <Link href="/">
-                <a className="navbar-brand">ABOUT</a>
-              </Link>
+    <div>
+      <nav className="nav">
+        <ul className = "nav-links">
+          <li>
+            <Link href="/">
+              <a className="navbar-brand">ABOUT</a>
+            </Link>
+          </li>
 
-              <Link href="/projects">
-                <a className="navbar-brand">PROJECTS</a>
-              </Link>
+          <li>
+            
+              <a href="#projects-section" className="navbar-brand">PROJECTS</a>
+            
+          </li>
 
-              <Link href="/contact">
-                <a className="navbar-brand">CONTACT</a>
-              </Link>
-            </div>
-          </nav>
-        </div>
-      </div>
-    </header>
+          <li>
+            
+              <a href="#contact" className="navbar-brand">CONTACT</a>
+            
+          </li>
+        </ul>
+      </nav>
+    </div>
   );
 };
 
