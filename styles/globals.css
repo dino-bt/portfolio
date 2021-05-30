@@ -2,8 +2,14 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: "Nova Round", cursive;
+  font-family: 'Roboto', sans-serif;
   color: black;
+}
+
+h5{
+
+  font-weight: bold;
+  
 }
 
 /*-------------------- NAVBAR HEADER ----------------------------*/
@@ -57,13 +63,14 @@ body {
 
 
 .about{
-  background-color: rgb(169, 169, 169);
-  height: 100vh;
+  background-color: rgb(215, 213, 213);
+  height: 95vh;
 }
 .divTitle .title{
   text-align: center;
   padding-top: 50px;
   margin-top: 0px;
+  text-shadow: 1px 1px 1px #1f1f1f;
   
 
 
@@ -79,6 +86,8 @@ body {
 
 .bodyAbout{
  text-align: center;
+ color: black;
+ font-weight: bold;
 }
 
 
@@ -102,10 +111,7 @@ body {
   margin-top: 50px;
 }
 
-.GitHublink {
-  margin-top: 200px;
-  text-align: center;
-}
+
 
 @media screen and (max-width: 1258px) {
 
@@ -115,7 +121,35 @@ body {
   }
 
 }
+@media screen and (max-width: 1200px) {
+  .dinoPic {
+    margin-left: 390px;
+  }
+}
+@media screen and (max-width: 1165px) {
+  .dinoPic {
+    margin-left: 375px;
+  }
+}
 
+@media screen and (max-width: 1135px) {
+  .dinoPic {
+    margin-left: 350px;
+  }
+}
+
+
+@media screen and (max-width: 1100px) {
+  .dinoPic {
+    margin-left: 350px;
+  }
+}
+
+@media screen and (max-width: 1064px) {
+  .dinoPic {
+    margin-left: 330px;
+  }
+}
 
 @media screen and (max-width: 1000px) {
   .dinoPic {
@@ -124,6 +158,18 @@ body {
   .about{
     
     height: 120vh;
+  }
+}
+
+@media screen and (max-width: 956px) {
+  .dinoPic {
+    margin-left: 275px;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .dinoPic {
+    margin-left: 250px;
   }
 }
 
@@ -138,6 +184,15 @@ body {
   }
 }
 
+@media screen and (max-width: 864px) {
+  
+  .dinoPic{
+    margin-left: 180px;
+  }
+  
+  
+}
+
 @media screen and (max-width: 800px) {
   .about{
     
@@ -146,32 +201,126 @@ body {
   
   
   .dinoPic {
-    margin-left: 150px;
+    margin-left: 100px;
   }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 700px) {
+  .about{
+    
+    height: 160vh;
+  }
+  
+  
   .dinoPic {
-    margin-left: 0%;
+    margin-left: 100px;
   }
-  .about .title{
-    text-align: center;
-    margin-top: 0px;
-    font-size: large;
+}
+
+@media screen and (max-width: 653px) {
+  .about{
+    
+    height: 160vh;
   }
+  
+  
+  .dinoPic {
+    margin-left: 80px;
+    margin-right: 50px;
+  }
+}
+
+@media screen and (max-width: 621px) {
+  .about{
+    
+    height: 160vh;
+  }
+  
+  
+  .dinoPic {
+    margin-left: 50px;
+  }
+  .picDiv{
+    margin-left:0px;
+    
+    display: flex;
+    margin-right: 200px;
+  }
+  
+}
+
+
+
+
+
+
+
+@media screen and  (max-width: 600px) {
+  
+  
+  
+  .dinoPic {
+    margin-left: 100px;
+  }
+}
+
+@media screen and (max-width: 545px) {
+  .about{
+    
+    height: 160vh;
+  }
+  
+  
+  .dinoPic {
+    margin-left: 50px;
+    
+    margin-right: 350px;
+  }
+  .picDiv{
+    margin-left:0px;
+    
+    display: flex;
+    margin-right: 350px;
+  }
+  
+}
+
+
+
+@media screen and (max-width:500px) {
+
+  .about .divTitle .title{
+
+    font-size: xx-large;
+  }
+  
+ 
+
+  .dinoPic {
+    margin-right: 0%;
+    
+}
+
+.picDiv{
+  margin-left: 50px;
+}
 
 }
 
 @media screen and (max-width: 400px) {
+  .picDiv{
+    margin-left: 0px;
+  }
+  
   .dinoPic {
-    margin-left: 0%;
+    
     width: 300px;
     margin-left: 25px;
   }
-  .about .title{
-    text-align: center;
-    margin-top: 0px;
-    font-size: large;
+   
+ .about .divTitle .title{
+
+    font-size: xx-large;
   }
 
 
@@ -185,7 +334,9 @@ body {
 .projectsHeader{
   padding-top: 20px;
 text-align: center;
-font-size: large;
+font-size: 2rem;
+
+text-shadow: 1px 1.5px 1px #1f1f1f;
 }
 
 
@@ -194,8 +345,10 @@ font-size: large;
 
 
 .projectsHeader{
-  padding-top: 30px;
+  padding-top: 40px;
+  padding-bottom: 50px;
 text-align: center;
+text-shadow: 1px 1.5px 1px #1f1f1f;
 }
 
 a {
@@ -235,7 +388,7 @@ img {
 
 
 .projectCatalogue {
-  margin-left: 50px;
+
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
 }
 
@@ -256,7 +409,7 @@ img {
 
 .projects-grid {
   
-  margin-top: 60px;
+  
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   grid-gap: 4rem;
@@ -265,6 +418,7 @@ img {
   height: 525px;
   margin-left: 50px;
   margin-bottom: 6rem;
+  margin: 0 auto;
   
 }
 
@@ -278,6 +432,9 @@ img {
 
   .projects-section{
     height: 170vh;
+  }
+  .projects-grid{
+    margin-left: 0%;
   }
 }
 
@@ -296,7 +453,10 @@ img {
 }
 
 @media(max-width:491px){
-
+  .projects-grid{
+    margin-left: 0%;
+    margin-right: 200px;
+  }
   .projects-section{
     height: 500vh;
   }
@@ -309,11 +469,8 @@ img {
     
   }
 
-  .projects-grid {
-    grid-template-columns: 1fr;
-    height: 525px;
+  .projects-grid{
     margin-left: 0%;
-    margin-top: 60px;
   }
 }
 
@@ -383,10 +540,15 @@ img {
 
 .contact-section-header > h2 {
   font-size: 3rem;
+  text-shadow: 1px 1.5px 1px #1f1f1f;
 }
 @media (max-width:503px){
   .contact-section{
     height: 120vh;
+  }
+  .contact-section-header > h2 {
+    font-size:medium;
+    text-shadow: 1px 1.5px 1px #1f1f1f;
   }
 }
 @media (max-width:348px){
@@ -397,12 +559,13 @@ img {
 
 @media (max-width: 28.75em) {
   .contact-section-header > h2 {
-    font-size: 4rem;
+    font-size: 3rem;
   }
 }
 
 .contact-section-header > p {
   font-style: italic;
+  text-shadow: 0.5px 0.5px 0.5px #1f1f1f;
 }
 
 .contact-links {
@@ -416,7 +579,7 @@ img {
 
 .contact-details {
   font-size: 2.4rem;
-  text-shadow: 2px 2px 1px #1f1f1f;
+  text-shadow: 1px 1px 1px #1f1f1f;
   transition: transform 0.3s ease-out;
 }
 
