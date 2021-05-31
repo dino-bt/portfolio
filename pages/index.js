@@ -54,9 +54,9 @@ export default function About() {
                 <h5>Responsive</h5>
                 <br />
                 <p>
-                  Project built with React Node JS and express. Search Itunes
-                  fetches an API from the itunes Api. Select your artist that
-                  you would like to see there content.
+                  Project built with React Node JS and Express. Search iTunes
+                  fetches an API from the iTunes Api. Select your artist that
+                  you would like to see their content.
                 </p>
 
                 <a
@@ -77,8 +77,8 @@ export default function About() {
                 <h5>Responsive</h5>
                 <br />
                 <p>
-                  A project built with React Native. It creates posts and is
-                  able to delete/complete todo's from a list.
+                  A project built with React Native. It creates posts and is.
+                  able to delete/complete Todo's from a list.
                 </p>
 
                 <br />
@@ -101,10 +101,11 @@ export default function About() {
                 <h5>Responsive</h5>
                 <br />
                 <p>
-                  Full Authentication Login and Register website that tracks
-                  your learning using JWT tokens to authenticate, Javascript
-                  React and Nodejs/express{" "}
+                  Full Authentication Login and Register website that tracks.
+                  you're learning. Built with JavaScript React and
+                  Nodejs/Express.
                 </p>
+                <br/>
 
                 <a
                   href="https://dino-learning-log.herokuapp.com/"
@@ -124,8 +125,8 @@ export default function About() {
                 <h5>Not Responsive only for Desktop </h5>
                 <br />
                 <p>
-                  Online sport wear shopping catalogue, created with vanilla
-                  Javascript, HTML, CSS
+                  Online sport wear shopping catalogue, created with vanilla.
+                  JavaScript, HTML, CSS.
                 </p>
 
                 <br />
@@ -147,10 +148,12 @@ export default function About() {
                 <h5 className="card-title">Calculator</h5>
                 <h5>Responsive</h5>
                 <br />
+                
                 <p>
-                  A project built with React Native. Online Calculator it can
-                  add, multiply, divide and subract.
+                  A project built with React Native. A basic layout of a
+                  calculator.
                 </p>
+                <br/>
 
                 <a
                   href="https://dino-calculator.herokuapp.com/"
@@ -170,7 +173,7 @@ export default function About() {
                 <h5>Not Responsive only for Desktop </h5>
                 <br />
                 <p>
-                  A full stack MERN apllication, It has JWT authentication for
+                  A full stack MERN application, it has JWT authentication for
                   registering and logging in. Displays new and upcoming events.
                 </p>
 
