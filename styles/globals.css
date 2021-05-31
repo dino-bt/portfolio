@@ -90,6 +90,12 @@ h5{
  font-weight: bold;
 }
 
+.picDiv{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
 
 
 
@@ -98,11 +104,9 @@ h5{
   display: flex;
   border: solid black;
 
-  flex-direction: row;
-  justify-items: center;
   width: 400px;
   height: 300px;
-  margin-left: 510px;
+ 
   margin-top: 40px;
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
 }
@@ -117,135 +121,84 @@ h5{
 
   .about{
     
-    height: 130vh;
+    height: 100vh;
   }
 
 }
-@media screen and (max-width: 1200px) {
-  .dinoPic {
-    margin-left: 390px;
-  }
-}
-@media screen and (max-width: 1165px) {
-  .dinoPic {
-    margin-left: 375px;
-  }
-}
-
-@media screen and (max-width: 1135px) {
-  .dinoPic {
-    margin-left: 350px;
-  }
-}
 
 
-@media screen and (max-width: 1100px) {
-  .dinoPic {
-    margin-left: 350px;
-  }
-}
 
-@media screen and (max-width: 1064px) {
-  .dinoPic {
-    margin-left: 330px;
-  }
-}
+
+
+
+
+
+
 
 @media screen and (max-width: 1000px) {
-  .dinoPic {
-    margin-left: 300px;
-  }
+  
   .about{
     
-    height: 120vh;
+    height: 105vh;
   }
 }
 
-@media screen and (max-width: 956px) {
-  .dinoPic {
-    margin-left: 275px;
-  }
-}
 
-@media screen and (max-width: 950px) {
-  .dinoPic {
-    margin-left: 250px;
-  }
-}
+
 
 
 @media screen and (max-width: 900px) {
-  .dinoPic {
-    margin-left: 200px;
-  }
+ .picDiv{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+
+ }
   .about{
     
-    height: 130vh;
+    height: 108vh;
   }
 }
 
-@media screen and (max-width: 864px) {
-  
-  .dinoPic{
-    margin-left: 180px;
-  }
-  
-  
-}
+
 
 @media screen and (max-width: 800px) {
+
+  .picDiv{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+  
+   }
+  
   .about{
-    
-    height: 160vh;
+    height: 108vh;
   }
   
   
-  .dinoPic {
-    margin-left: 100px;
-  }
+  
 }
 
 @media screen and (max-width: 700px) {
-  .about{
-    
-    height: 160vh;
-  }
   
   
-  .dinoPic {
-    margin-left: 100px;
-  }
+  
+
 }
 
 @media screen and (max-width: 653px) {
-  .about{
-    
-    height: 160vh;
-  }
   
   
-  .dinoPic {
-    margin-left: 80px;
-    margin-right: 50px;
-  }
+  
+  
 }
 
 @media screen and (max-width: 621px) {
-  .about{
-    
-    height: 160vh;
-  }
+
   
   
-  .dinoPic {
-    margin-left: 50px;
-  }
-  .picDiv{
-    margin-left:0px;
-    
-    display: flex;
-    margin-right: 200px;
-  }
+  
+  
   
 }
 
@@ -255,35 +208,9 @@ h5{
 
 
 
-@media screen and  (max-width: 600px) {
-  
-  
-  
-  .dinoPic {
-    margin-left: 100px;
-  }
-}
 
-@media screen and (max-width: 545px) {
-  .about{
-    
-    height: 160vh;
-  }
-  
-  
-  .dinoPic {
-    margin-left: 50px;
-    
-    margin-right: 350px;
-  }
-  .picDiv{
-    margin-left:0px;
-    
-    display: flex;
-    margin-right: 350px;
-  }
-  
-}
+
+
 
 
 
@@ -296,26 +223,19 @@ h5{
   
  
 
-  .dinoPic {
-    margin-right: 0%;
-    
-}
+  
 
-.picDiv{
-  margin-left: 50px;
-}
+
 
 }
 
 @media screen and (max-width: 400px) {
-  .picDiv{
-    margin-left: 0px;
-  }
+  
   
   .dinoPic {
     
     width: 300px;
-    margin-left: 25px;
+   
   }
    
  .about .divTitle .title{
@@ -445,12 +365,35 @@ img {
   }
 }
 
+@media(max-width:719px){
+
+  .projects-section{
+    height: 260vh;
+  }
+}
+
 @media(max-width:718px){
+
+  .projects-section{
+    height: 420vh;
+  }
+}
+
+@media(max-width:703px){
+
+  .projects-section{
+    height: 440vh;
+  }
+}
+
+@media(max-width:637px){
 
   .projects-section{
     height: 450vh;
   }
 }
+
+
 
 @media(max-width:491px){
   .projects-grid{
@@ -458,7 +401,7 @@ img {
     margin-right: 200px;
   }
   .projects-section{
-    height: 500vh;
+    height: 470vh;
   }
 }
 
@@ -474,14 +417,20 @@ img {
   }
 }
 
-
-
-
-@media screen and (max-width: 900px) {
-  .dinoPic {
-    margin-left: 200px;
+@media(max-width:367px){
+  .projects-grid{
+    margin-left: 0%;
+    margin-right: 200px;
+  }
+  .projects-section{
+    height: 480vh;
   }
 }
+
+
+
+
+
 
 @media screen and (max-width: 800px) {
   .about{
@@ -490,15 +439,11 @@ img {
   }
   
   
-  .dinoPic {
-    margin-left: 150px;
-  }
+ 
 }
 
 @media screen and (max-width: 500px) {
-  .dinoPic {
-    margin-left: 0%;
-  }
+  
   .about .title{
     text-align: center;
     margin-top: 0px;
@@ -509,9 +454,9 @@ img {
 
 @media screen and (max-width: 400px) {
   .dinoPic {
-    margin-left: 0%;
+    
     width: 300px;
-    margin-left: 25px;
+   
   }
   .about .title{
     text-align: center;

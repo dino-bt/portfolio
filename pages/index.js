@@ -14,11 +14,11 @@ export default function About() {
 
       <Header />
 
-      <div id="about" className="about">
+      <div id="About" className="about">
         <div className="divTitle">
           <h1 className="title"> Daniel (Dino) Ben Tovim </h1>
         </div>
-        <div className="picDiv">
+        <div id="picDiv" className="picDiv">
           <img className="dinoPic" src="/dinopic.jpg" alt="dinopic" />
         </div>
         <p className="bodyAbout">
@@ -40,30 +40,27 @@ export default function About() {
           this is my way of life.
         </p>
         <br />
-        
       </div>
 
       <section id="projects-section" className="projects-section">
         <h1 className="projectsHeader">Here are my Projects</h1>
 
         <div className="projects-grid">
-          
-         
-         
-
           <div className="projectCatalogue">
             <div className="projectCard">
               <img src="/itunes.jpg" className="card-img-top" />
               <div className="card-body">
                 <h5 className="card-title">Itunes Search Engine</h5>
-                <p>
-                  Project built with React Node JS and express. Search Itunes fetches an
-                  API from the itunes Api. Select your artist that you would like to see
-                  there content.
-                </p>
+                <h5>Responsive</h5>
                 <br />
+                <p>
+                  Project built with React Node JS and express. Search Itunes
+                  fetches an API from the itunes Api. Select your artist that
+                  you would like to see there content.
+                </p>
+
                 <a
-                  href="https://dino-itunes.herokuapp.com/"
+                  href="https://dino-itunes-new.herokuapp.com/"
                   className="btn btn-primary"
                 >
                   GO TO PROJECT
@@ -72,21 +69,18 @@ export default function About() {
             </div>
           </div>
 
-
-
-       
-        
-        
           <div className="projectCatalogue">
             <div className="projectCard">
               <img src="/todolist.jpg" className="card-img-top" />
               <div className="card-body">
                 <h5 className="card-title">To Do List</h5>
-                <p>
-                  A project built with React Native.
-                  It creates posts and is able to delete/complete todo's from a list. 
-                </p>
+                <h5>Responsive</h5>
                 <br />
+                <p>
+                  A project built with React Native. It creates posts and is
+                  able to delete/complete todo's from a list.
+                </p>
+
                 <br />
                 <br />
                 <a
@@ -100,38 +94,42 @@ export default function About() {
           </div>
 
           <div className="projectCatalogue">
-          <div className="projectCard">
-            <img src="/learning.jpeg" className="card-img-top" />
-            <div className="card-body">
-              <h5 className="card-title">Track your learning project</h5>
-              <p>
-                Full Authentication Login and Register website that tracks
-                your learning using JWT tokens to authenticate, Javascript React and Nodejs/express{" "}
-              </p>
-              <br />
-              
-              <a
-                href="https://dino-learning-log.herokuapp.com/"
-                className="btn btn-primary"
-              >
-                GO TO PROJECT
-              </a>
+            <div className="projectCard">
+              <img src="/learning.jpeg" className="card-img-top" />
+              <div className="card-body">
+                <h5 className="card-title">Track your learning project</h5>
+                <h5>Responsive</h5>
+                <br />
+                <p>
+                  Full Authentication Login and Register website that tracks
+                  your learning using JWT tokens to authenticate, Javascript
+                  React and Nodejs/express{" "}
+                </p>
+
+                <a
+                  href="https://dino-learning-log.herokuapp.com/"
+                  className="btn btn-primary"
+                >
+                  GO TO PROJECT
+                </a>
+              </div>
             </div>
           </div>
-        </div>
 
           <div className="projectCatalogue">
             <div className="projectCard">
               <img src="/tanktop.jpg" className="card-img-top" />
               <div className="card-body">
                 <h5 className="card-title">Catalogue project</h5>
+                <h5>Not Responsive only for Desktop </h5>
+                <br />
                 <p>
                   Online sport wear shopping catalogue, created with vanilla
                   Javascript, HTML, CSS
                 </p>
+
                 <br />
-                <br />
-               
+
                 <a
                   href="https://new-catalogue-project.herokuapp.com/"
                   className="btn btn-primary"
@@ -147,12 +145,13 @@ export default function About() {
               <img src="/calculator.jpg" className="card-img-top" />
               <div className="card-body">
                 <h5 className="card-title">Calculator</h5>
+                <h5>Responsive</h5>
+                <br />
                 <p>
-                  A project built with React Native.
-                  Online Calculator it can add, multiply, divide and subract. 
+                  A project built with React Native. Online Calculator it can
+                  add, multiply, divide and subract.
                 </p>
-                <br />
-                <br />
+
                 <a
                   href="https://dino-calculator.herokuapp.com/"
                   className="btn btn-primary"
@@ -164,39 +163,27 @@ export default function About() {
           </div>
 
           <div className="projectCatalogue">
-          <div className="projectCard">
-            <img src="/events.jpg" className="card-img-top" />
-            <div className="card-body">
-              <h5 className="card-title">Event Updates</h5>
-              <p>
-                A full stack MERN apllication, It has JWT authentication for
-                registering and logging in. Displays new and upcoming events.
-              </p>
-              <br />
-              <a
-                href="https://github.com/dino-bt/event"
-                className="btn btn-primary"
-              >
-                GO TO PROJECT
-              </a>
+            <div className="projectCard">
+              <img src="/events.jpg" className="card-img-top" />
+              <div className="card-body">
+                <h5 className="card-title">Event Updates</h5>
+                <h5>Not Responsive only for Desktop </h5>
+                <br />
+                <p>
+                  A full stack MERN apllication, It has JWT authentication for
+                  registering and logging in. Displays new and upcoming events.
+                </p>
+
+                <a
+                  href="https://github.com/dino-bt/event"
+                  className="btn btn-primary"
+                >
+                  GO TO PROJECT
+                </a>
+              </div>
             </div>
           </div>
         </div>
-
-
-
-        
-        
-        
-        
-        
-        
-        
-          </div>
-
-       
-
-
       </section>
 
       <section id="contact" className="contact-section">
@@ -227,7 +214,10 @@ export default function About() {
           >
             <i className="fab fa-linkedin"></i> LinkedIn
           </a>
-          <a href="mailto:dinobentovim@gmail.com" className="btn contact-details">
+          <a
+            href="mailto:dinobentovim@gmail.com"
+            className="btn contact-details"
+          >
             <i className="fas fa-at"></i> Send a mail
           </a>
           <a href="tel:+27799277931" className="btn contact-details">
@@ -237,19 +227,10 @@ export default function About() {
       </section>
 
       <footer>
-  
-  <p>
-   
-    <a id="backToTop" href="#about" target="_blank">
-    Back to the top 
-      
-    </a>
-  </p>
-</footer>
-
-
-
-
+        <a id="backToTop" href="#About">
+          Back to the top
+        </a>
+      </footer>
     </div>
   );
 }
