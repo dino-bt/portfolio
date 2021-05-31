@@ -24,20 +24,22 @@ export default function About() {
         <p className="bodyAbout">
           Hello, my name is Dino Ben Tovim, I have currently finished a Full
           Stack Web Developer Bootcamp Course at Hyperion dev. I have finished
-          with avg grade of 98%.
+          with avg grade of 96%. I have learnt a lot in these last three months
+          and have built projects. I have learnt how to write HTML, CSS,
+          Javascript, ExpressJS, NodeJs, React Native/Next and Mongoose/MongoDB.
+          I am ready to start a new career in the IT sector. This is a new
+          venture for me as I have been in music and performance arts for most
+          of my professional life. When covid-19 happened, I decided that I
+          wanted to explore another avenue in my life and decided to learn Web
+          Development. I made a successful career out of my Djing but sometimes
+          in life things change and they are out of your control. I am
+          hardworking and persistent and whatever life throws at me I will
+          finish what I started this is my way of life.
           <br />
-          I have learnt a lot in these last three months and have built
-          projects. I have learnt how to write HTML, CSS, Javascript, ExpressJS,
-          NodeJs, React Native/Next and Mongoose/MongoDB. I am ready to start a
-          new career in the IT sector. This is a new venture for me as I have
-          been in music and performance arts for most of my professional life.
-          When covid-19 happened I decided after some time that I want to
-          explore another avenue in my life and decided to learn Web
-          Development.
-          <br />I made a successful career out of my Djing but sometimes in life
-          things change and they are out of your control. I am hardworking and
-          persistent and whatever life throws at me I will finish what I started
-          this is my way of life.
+          <br/>
+          <a href="https://www.hyperiondev.com/portfolio/62185/">
+            Click here to check out my course grades.
+          </a>
         </p>
         <br />
       </div>
@@ -105,7 +107,7 @@ export default function About() {
                   you're learning. Built with JavaScript React and
                   Nodejs/Express.
                 </p>
-                <br/>
+                <br />
 
                 <a
                   href="https://dino-learning-log.herokuapp.com/"
@@ -148,12 +150,12 @@ export default function About() {
                 <h5 className="card-title">Calculator</h5>
                 <h5>Responsive</h5>
                 <br />
-                
+
                 <p>
                   A project built with React Native. A basic layout of a
                   calculator.
                 </p>
-                <br/>
+                <br />
 
                 <a
                   href="https://dino-calculator.herokuapp.com/"
