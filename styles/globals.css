@@ -60,7 +60,13 @@ h5{
   list-style: none;
 }
 /*------------------------ About Section-------------------*/
-
+p{
+  font-weight: 800;
+  line-height: 25px;
+  
+  
+  text-emphasis: bold;
+}
 
 .about{
   background-color: rgb(215, 213, 213);
@@ -79,7 +85,6 @@ h5{
  .title{
   text-align: center;
   margin-top: 10px;
-
 
 
 }

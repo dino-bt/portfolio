@@ -22,6 +22,7 @@ export default function About() {
           <img className="dinoPic" src="/dinopic.jpg" alt="dinopic" />
         </div>
         <p className="bodyAbout">
+        <strong>
           Hello, my name is Dino Ben Tovim, I have currently finished a Full
           Stack Web Developer Bootcamp Course at Hyperion dev. I have finished
           with avg grade of 96%. I have learnt a lot in these last three months
@@ -35,6 +36,7 @@ export default function About() {
           in life things change and they are out of your control. I am
           hardworking and persistent and whatever life throws at me I will
           finish what I started this is my way of life.
+          </strong>
           <br />
           <br/>
           <a href="https://www.hyperiondev.com/portfolio/62185/">
@@ -169,18 +171,18 @@ export default function About() {
 
           <div className="projectCatalogue">
             <div className="projectCard">
-              <img src="/events.jpg" className="card-img-top" />
+              <img src="/events.jpeg" className="card-img-top" />
               <div className="card-body">
-                <h5 className="card-title">Event Updates</h5>
+                <h5 className="card-title">TETRIS</h5>
                 <h5>Not Responsive only for Desktop </h5>
                 <br />
                 <p>
-                  A full stack MERN application, it has JWT authentication for
-                  registering and logging in. Displays new and upcoming events.
+                  A Project built using React, replicates the famous tetris game. 
+                  Please note that due to custimisation the project will onlly work on a desktop computer.
                 </p>
 
                 <a
-                  href="https://github.com/dino-bt/event"
+                  href="https://whispering-anchorage-45288.herokuapp.com/"
                   className="btn btn-primary"
                 >
                   GO TO PROJECT
