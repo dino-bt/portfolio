@@ -14,36 +14,61 @@ export default function About() {
 
       <Header />
 
-      <div id="About" className="about">
+      <div id="About" >
+      <div className="about">
         <div className="divTitle">
           <h1 className="title"> Daniel (Dino) Ben Tovim </h1>
         </div>
         <div id="picDiv" className="picDiv">
           <img className="dinoPic" src="/dinopic.jpg" alt="dinopic" />
         </div>
-        <p className="bodyAbout">
-        <strong>
-          Hello, my name is Dino Ben Tovim, I have currently finished a Full
-          Stack Web Developer Bootcamp Course at Hyperion dev. I have finished
-          with avg grade of 96%. I have learnt a lot in these last three months
-          and have built projects. I have learnt how to write HTML, CSS,
-          Javascript, ExpressJS, NodeJs, React Native/Next and Mongoose/MongoDB.
-          I am ready to start a new career in the IT sector. This is a new
-          venture for me as I have been in music and performance arts for most
-          of my professional life. When covid-19 happened, I decided that I
-          wanted to explore another avenue in my life and decided to learn Web
-          Development. I made a successful career out of my Djing but sometimes
-          in life things change and they are out of your control. I am
-          hardworking and persistent and whatever life throws at me I will
-          finish what I started this is my way of life.
-          </strong>
-          <br />
-          <br/>
-          <a href="https://www.hyperiondev.com/portfolio/62185/">
-            Click here to check out my course grades.
-          </a>
-        </p>
+        <div className="divAbout">
+          <div className="innerDivAbout">
+            <p className="bodyAbout">
+              
+                Driven by curiosity and the desire to constantly evolve both my
+                skill set and style, I’m an aspiring full-stack developer by day
+                and electronic DJ by night. Passionate about software and
+                technology as well as the progressive storytelling of electronic
+                music – my capability is multi-faceted and when I’m not coding,
+                I’m locked away in my studio producing tracks for an upcoming
+                release.
+                <br/>
+                <br/>
+                
+                Not one to limit myself to possibility, I enjoy
+                creating and developing solutions to allow for seamless user
+                interfaces and a frictionless customer experience. I pride
+                myself on experiential learning, having just completed a
+                full-stack web development Bootcamp, achieving an average grade
+                of 96%-my proficiency includes and is not limited to:  <br/>
+             
+               
+                <br />
+                <strong>
+                <ul className= "listLanguages" >
+                
+                <li>HTML</li> 
+                <li>CSS </li> 
+                <li>JavaScript</li>
+                <li>React JS/Next Js</li>
+                <li>NodeJs/Express</li>
+                <li>MongoDB/Mongoose</li> 
+
+                </ul>
+            
+                
+                
+              </strong>
+              <br />
+              <a className ="courseGrades" href="https://www.hyperiondev.com/portfolio/62185/">
+                Click here to check out my course grades.
+              </a>
+            </p>
+          </div>
+        </div>
         <br />
+        </div>
       </div>
 
       <section id="projects-section" className="projects-section">
@@ -177,8 +202,9 @@ export default function About() {
                 <h5>Not Responsive only for Desktop </h5>
                 <br />
                 <p>
-                  A Project built using React, replicates the famous tetris game. 
-                  Please note that due to custimisation the project will onlly work on a desktop computer.
+                  A Project built using React, replicates the famous tetris
+                  game. Please note that due to custimisation the project will
+                  onlly work on a desktop computer.
                 </p>
 
                 <a
@@ -233,11 +259,15 @@ export default function About() {
         </div>
       </section>
 
+
       <footer>
+      <p>Designed and Created by: Dino Ben Tovim</p>
         <a id="backToTop" href="#About">
           Back to the top
         </a>
       </footer>
+      
+ 
     </div>
   );
 }

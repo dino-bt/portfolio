@@ -2,7 +2,7 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Poppins', sans-serif;
   color: black;
 }
 
@@ -65,12 +65,40 @@ p{
   line-height: 25px;
   
   
+  
   text-emphasis: bold;
 }
 
+
+
+:hover .courseGrades {
+  color: white;
+  text-decoration: none;
+}
+
+
+.divAbout{
+display: flex;
+justify-content: center;
+
+
+
+}
+.innerDivAbout {
+width: 50%;
+}
+
+
+
 .about{
   background-color: rgb(215, 213, 213);
-  height: 95vh;
+  /*height: 135vh; */
+  width: 100%;
+  position: relative;
+  background-size: cover;
+  background: rgba(0,0,0,0.67);
+  
+  background-image: url("/background.png");
 }
 .divTitle .title{
   text-align: center;
@@ -82,17 +110,25 @@ p{
 
 }
 
+.listLanguages{
+  text-align: start;
+}
+
  .title{
   text-align: center;
   margin-top: 10px;
+  color: white;
 
 
 }
 
 .bodyAbout{
- text-align: center;
- color: black;
- font-weight: bold;
+ 
+ color:white;
+text-align: justify;
+text-align: center;
+
+ 
 }
 
 .picDiv{
@@ -121,36 +157,40 @@ p{
 }
 
 
-
+/*
 @media screen and (max-width: 1258px) {
 
   .about{
     
-    height: 100vh;
+    height: 145vh;
   }
 
 }
 
 
+*/
 
 
 
 
 
 
-
-
-@media screen and (max-width: 1000px) {
+/*
+@media screen and (max-width: 1080px) {
   
   .about{
     
-    height: 105vh;
+    height: 150vh;
   }
 }
 
+@media screen and (max-width: 960px){
+  .about{
+    height:150vh;
+  }
+}
 
-
-
+*/
 
 @media screen and (max-width: 900px) {
  .picDiv{
@@ -159,10 +199,12 @@ p{
   justify-content: center;
 
  }
+ /*
   .about{
     
-    height: 108vh;
+    height: 165vh;
   }
+  */
 }
 
 
@@ -175,18 +217,21 @@ p{
     justify-content: center;
   
    }
-  
-  .about{
-    height: 108vh;
-  }
+ /* 
+.about{ 
+  height:175vh;
+
+}  
+  */
   
   
   
 }
 
+/*
 @media screen and (max-width: 700px) {
   
-  
+  .about{height: 180vh;}
   
 
 }
@@ -194,21 +239,21 @@ p{
 @media screen and (max-width: 653px) {
   
   
+  .about{height:190vh;}
+  
+}
+
+@media screen and (max-width: 542px) {
+
+  
+  .about{height:200vh;}
+  
   
   
 }
 
-@media screen and (max-width: 621px) {
 
-  
-  
-  
-  
-  
-}
-
-
-
+*/
 
 
 
@@ -227,13 +272,18 @@ p{
   }
   
  
-
-  
-
-
+/*  
+.about{height:210vh;}
+*/
 
 }
+/*
+@media screen and (max-width:450px)
+{
 
+.about{height:230vh;}
+}
+*/
 @media screen and (max-width: 400px) {
   
   
@@ -247,11 +297,29 @@ p{
 
     font-size: xx-large;
   }
+/*
+  .about{height:250vh;}
+*/
+}
+/*
+@media screen and (max-width:370px)
+{
 
-
-
+.about{height:260vh;}
 }
 
+@media screen and (max-width:349px)
+{
+
+.about{height:280vh;}
+}
+
+@media screen and (max-width:320px)
+{
+
+.about{height:300vh;}
+}
+*/
 /*--------------------------Projects----------------------------*/
 @media screen and (max-width: 400px) {
   
@@ -340,24 +408,25 @@ img {
   grid-gap: 4rem;
   width: 100%;
   max-width: 1280px;
-  height: 525px;
+  
   margin-left: 50px;
   margin-bottom: 6rem;
   margin: 0 auto;
+  margin-bottom:50px ;
   
 }
 
 
- .projects-section{
+ /*.projects-section{
 
   height: 160vh;
  }
- 
+ */
 @media(max-width:1200px){
 
-  .projects-section{
+ /* .projects-section{
     height: 170vh;
-  }
+  }*/
   .projects-grid{
     margin-left: 0%;
   }
@@ -365,37 +434,43 @@ img {
 
 @media(max-width:1102px){
 
-  .projects-section{
+/*  .projects-section{
     height: 240vh;
   }
+  */
 }
 
 @media(max-width:719px){
-
+/*
   .projects-section{
     height: 260vh;
   }
+  */
 }
 
 @media(max-width:718px){
-
+/*
   .projects-section{
     height: 420vh;
   }
+  */
 }
 
-@media(max-width:703px){
 
+@media(max-width:703px){
+/*
   .projects-section{
-    height: 440vh;
+    height: 430vh;
   }
+  */
 }
 
 @media(max-width:637px){
-
+/*
   .projects-section{
-    height: 450vh;
+    height: 440vh;
   }
+  */
 }
 
 
@@ -405,17 +480,21 @@ img {
     margin-left: 0%;
     margin-right: 200px;
   }
+  /*
   .projects-section{
-    height: 470vh;
+    height: 460vh;
   }
+  */
 }
 
 @media (max-width: 30.625em) {
-  .projects-section {
+  /*.projects-section {
     padding: 6rem 1rem;
 
     
   }
+
+  */
 
   .projects-grid{
     margin-left: 0%;
@@ -427,25 +506,17 @@ img {
     margin-left: 0%;
     margin-right: 200px;
   }
+  /*
   .projects-section{
-    height: 480vh;
+    height: 470vh;
   }
+  */
 }
 
 
 
 
 
-
-@media screen and (max-width: 800px) {
-  .about{
-    
-    height: 150vh;
-  }
-  
-  
- 
-}
 
 @media screen and (max-width: 500px) {
   
@@ -496,10 +567,7 @@ img {
   .contact-section{
     height: 120vh;
   }
-  .contact-section-header > h2 {
-    font-size:medium;
-    text-shadow: 1px 1.5px 1px #1f1f1f;
-  }
+ 
 }
 @media (max-width:348px){
   .contact-section{
@@ -539,14 +607,25 @@ img {
 
 /*------------------ Footer ---------------------*/ 
 
+.footerDiv{
+
+  
+}
+
+footer p {
+  color: white;
+}
 
 footer {
   font-weight: 300;
   display: flex;
-  justify-content: space-evenly;
+  max-width : 100%;
+  justify-content: center;
+  flex-direction: column;
   padding: 2rem;
   background: black;
   border-top: 4px solid var(--main-red);
+  align-items: center;
 }
 
 footer > p {
