@@ -27,7 +27,7 @@ export default function About() {
             <p className="bodyAbout">
               
                 Driven by curiosity and the desire to constantly evolve both my
-                skill set and style, I’m an aspiring full-stack developer by day
+                skill set and style, I’m an aspiring full-stack web developer by day
                 and electronic DJ by night. Passionate about software and
                 technology as well as the progressive storytelling of electronic
                 music – my capability is multi-faceted and when I’m not coding,
