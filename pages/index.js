@@ -87,11 +87,13 @@ export default function About() {
                   fetches an API from the iTunes Api. Select your artist that
                   you would like to see their content.
                 </p>
+                <br/>
 
                 <a
                   href="https://dino-itunes-new.herokuapp.com/"
                   className="btn btn-primary"
                 >
+                
                   GO TO PROJECT
                 </a>
               </div>
@@ -183,6 +185,7 @@ export default function About() {
                   calculator.
                 </p>
                 <br />
+                <br/>
 
                 <a
                   href="https://dino-calculator.herokuapp.com/"
