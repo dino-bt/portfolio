@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import Header from "../components/Header";
+import ProjectCards from "../components/projectCards";
 
 //the index acts as the hompage About
 
@@ -14,60 +15,55 @@ export default function About() {
 
       <Header />
 
-      <div id="About" >
-      <div className="about">
-        <div className="divTitle">
-          <h1 className="title"> Daniel (Dino) Ben Tovim </h1>
-        </div>
-        <div id="picDiv" className="picDiv">
-          <img className="dinoPic" src="/dinopic.jpg" alt="dinopic" />
-        </div>
-        <div className="divAbout">
-          <div className="innerDivAbout">
-            <p className="bodyAbout">
-              
+      <div id="About">
+        <div className="about">
+          <div className="divTitle">
+            <h1 className="title"> Daniel (Dino) Ben Tovim </h1>
+          </div>
+          <div id="picDiv" className="picDiv">
+          <div className= "insidePicDiv"></div>
+          {/*<img className="dinoPic" src="/dinopic.jpg" alt="dinopic" /> */}
+          </div>
+          <div className="divAbout">
+            <div className="innerDivAbout">
+              <p className="bodyAbout">
                 Driven by curiosity and the desire to constantly evolve both my
-                skill set and style, I’m an aspiring full-stack web developer by day
-                and electronic DJ by night. Passionate about software and
+                skill set and style, I’m an aspiring full-stack web developer by
+                day and electronic DJ by night. Passionate about software and
                 technology as well as the progressive storytelling of electronic
                 music – my capability is multi-faceted and when I’m not coding,
                 I’m locked away in my studio producing tracks for an upcoming
                 release.
-                <br/>
-                <br/>
-                
-                Not one to limit myself to possibility, I enjoy
-                creating and developing solutions to allow for seamless user
-                interfaces and a frictionless customer experience. I pride
-                myself on experiential learning, having just completed a
-                full-stack web development Bootcamp, achieving an average grade
-                of 96%-my proficiency includes and is not limited to:  <br/>
-             
-               
+                <br />
+                <br />
+                Not one to limit myself to possibility, I enjoy creating and
+                developing solutions to allow for seamless user interfaces and a
+                frictionless customer experience. I pride myself on experiential
+                learning, having just completed a full-stack web development
+                Bootcamp, achieving an average grade of 96%-my proficiency
+                includes and is not limited to: <br />
                 <br />
                 <strong>
-                <ul className= "listLanguages" >
-                
-                <li>HTML</li> 
-                <li>CSS </li> 
-                <li>JavaScript</li>
-                <li>React JS/Next Js</li>
-                <li>NodeJs/Express</li>
-                <li>MongoDB/Mongoose</li> 
-
-                </ul>
-            
-                
-                
-              </strong>
-              <br />
-              <a className ="courseGrades" href="https://www.hyperiondev.com/portfolio/62185/">
-                Click here to check out my course grades.
-              </a>
-            </p>
+                  <ul className="listLanguages">
+                    <li>HTML</li>
+                    <li>CSS </li>
+                    <li>JavaScript</li>
+                    <li>React JS/Next Js</li>
+                    <li>NodeJs/Express</li>
+                    <li>MongoDB/Mongoose</li>
+                  </ul>
+                </strong>
+                <br />
+                <a
+                  className="courseGrades"
+                  href="https://www.hyperiondev.com/portfolio/62185/"
+                >
+                  Click here to check out my course grades.
+                </a>
+              </p>
+            </div>
           </div>
-        </div>
-        <br />
+          <br />
         </div>
       </div>
 
@@ -75,150 +71,59 @@ export default function About() {
         <h1 className="projectsHeader">Here are my Projects</h1>
 
         <div className="projects-grid">
-          <div className="projectCatalogue">
-            <div className="projectCard">
-              <img src="/itunes.jpg" className="card-img-top" />
-              <div className="card-body">
-                <h5 className="card-title">Itunes Search Engine</h5>
-                <h5>Responsive</h5>
-                <br />
-                <p>
-                  Project built with React Node JS and Express. Search iTunes
-                  fetches an API from the iTunes Api. Select your artist that
-                  you would like to see their content.
-                </p>
-                <br/>
+          <ProjectCards
+            src="/itunes.jpg"
+            title="Itunes Search Engine"
+            responsive="Responsive"
+            description="Project built with React Node JS and Express. Search iTunes
+        fetches an API from the iTunes Api. Select your artist that
+        you would like to see their content."
+            href="https://dino-itunes-new.herokuapp.com/"
+          />
 
-                <a
-                  href="https://dino-itunes-new.herokuapp.com/"
-                  className="btn btn-primary"
-                >
-                
-                  GO TO PROJECT
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <div className="projectCatalogue">
-            <div className="projectCard">
-              <img src="/todolist.jpg" className="card-img-top" />
-              <div className="card-body">
-                <h5 className="card-title">To Do List</h5>
-                <h5>Responsive</h5>
-                <br />
-                <p>
-                  A project built with React Native. It creates posts and is.
-                  able to delete/complete Todo's from a list.
-                </p>
-
-                <br />
-                <br />
-                <a
-                  href="https://dino-todo-list.herokuapp.com/"
-                  className="btn btn-primary"
-                >
-                  GO TO PROJECT
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <div className="projectCatalogue">
-            <div className="projectCard">
-              <img src="/learning.jpeg" className="card-img-top" />
-              <div className="card-body">
-                <h5 className="card-title">Track your learning project</h5>
-                <h5>Responsive</h5>
-                <br />
-                <p>
-                  Full Authentication Login and Register website that tracks.
-                  you're learning. Built with JavaScript React and
-                  Nodejs/Express.
-                </p>
-                <br />
-
-                <a
-                  href="https://dino-learning-log.herokuapp.com/"
-                  className="btn btn-primary"
-                >
-                  GO TO PROJECT
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <div className="projectCatalogue">
-            <div className="projectCard">
-              <img src="/tanktop.jpg" className="card-img-top" />
-              <div className="card-body">
-                <h5 className="card-title">Catalogue project</h5>
-                <h5>Not Responsive only for Desktop </h5>
-                <br />
-                <p>
-                  Online sport wear shopping catalogue, created with vanilla.
-                  JavaScript, HTML, CSS.
-                </p>
-
-                <br />
-
-                <a
-                  href="https://new-catalogue-project.herokuapp.com/"
-                  className="btn btn-primary"
-                >
-                  GO TO PROJECT
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <div className="projectCatalogue">
-            <div className="projectCard">
-              <img src="/calculator.jpg" className="card-img-top" />
-              <div className="card-body">
-                <h5 className="card-title">Calculator</h5>
-                <h5>Responsive</h5>
-                <br />
-
-                <p>
-                  A project built with React Native. A basic layout of a
-                  calculator.
-                </p>
-                <br />
-                <br/>
-
-                <a
-                  href="https://dino-calculator.herokuapp.com/"
-                  className="btn btn-primary"
-                >
-                  GO TO PROJECT
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <div className="projectCatalogue">
-            <div className="projectCard">
-              <img src="/events.jpeg" className="card-img-top" />
-              <div className="card-body">
-                <h5 className="card-title">TETRIS</h5>
-                <h5>Not Responsive only for Desktop </h5>
-                <br />
-                <p>
-                  A Project built using React, replicates the famous tetris
-                  game. Please note that due to custimisation the project will
-                  onlly work on a desktop computer.
-                </p>
-
-                <a
-                  href="https://whispering-anchorage-45288.herokuapp.com/"
-                  className="btn btn-primary"
-                >
-                  GO TO PROJECT
-                </a>
-              </div>
-            </div>
-          </div>
+           <ProjectCards
+            src="/events.jpeg"
+            title="TETRIS"
+            responsive="Not Responsive only for Desktop"
+            description="A Project built using React, replicates the famous tetris
+        game. Please note that due to custimisation the project will
+        only work on a desktop computer."
+            href="https://whispering-anchorage-45288.herokuapp.com/"
+          />
+          <ProjectCards
+            src="/todolist.jpg"
+            title="To Do List"
+            responsive="Responsive"
+            description="A project built with React Native. It creates posts and is.
+        able to delete/complete Todo's from a list."
+            href="https://dino-todo-list.herokuapp.com/"
+          />
+          <ProjectCards
+            src="/learning.jpeg"
+            title="Track Your Learning"
+            responsive="Responsive"
+            description="Full Authentication Login and Register website that tracks.
+        you're learning. Built with JavaScript React and
+        Nodejs/Express."
+            href="https://dino-learning-log.herokuapp.com/"
+          />
+          <ProjectCards
+            src="/tanktop.jpg"
+            title="Gym Store"
+            responsive="Not Responsive only for Desktop"
+            description="Online sport wear shopping catalogue, created with vanilla.
+        JavaScript, HTML, CSS."
+            href="https://new-catalogue-project.herokuapp.com/"
+          />
+          <ProjectCards
+            src="/calculator.jpg"
+            title="Calculator"
+            responsive="Responsive"
+            description="A project built with React Native. A basic layout of a
+        calculator."
+            href="https://dino-calculator.herokuapp.com/"
+          />
+         
         </div>
       </section>
 
@@ -262,15 +167,12 @@ export default function About() {
         </div>
       </section>
 
-
       <footer>
-      <p>Designed and Created by: Dino Ben Tovim</p>
+        <p>Designed and Created by: Dino Ben Tovim</p>
         <a id="backToTop" href="#About">
           Back to the top
         </a>
       </footer>
-      
- 
     </div>
   );
 }
