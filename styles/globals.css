@@ -81,11 +81,10 @@ p{
 display: flex;
 justify-content: center;
 
-
-
 }
 .innerDivAbout {
 width: 50%;
+
 }
 
 
@@ -430,9 +429,10 @@ img {
 
 
 
+
 .projectCatalogue {
 
-  height: 500px;
+  
 
   display: flex;
   flex-direction: column;
@@ -446,7 +446,7 @@ img {
   flex-direction: column;
   justify-content: flex-end;
 
-  height: 100px;
+ height:relative;
   padding-bottom:10px ;
   width: 50%;
   margin-left: 2%;
@@ -484,11 +484,23 @@ img {
   margin-bottom:50px ;
   
 }
+
+.responsiveTitle{
+
+  font-family: italic;
+  opacity: 0.5;
+}
+.pTag{
+  position: relative;
+  padding-top: 20px;
+}
+
 .card-body{
   display: flex;
   flex-direction: column;
+  height:250px;
  
-  justify-content:flex-end;
+  
 }
 
 

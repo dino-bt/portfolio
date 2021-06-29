@@ -6,15 +6,15 @@ const ProjectCards = ({ src, title, responsive, description, href }) => {
       <div className="projectCard">
         <img src={src} className="card-img-top" />
         <div className="card-body">
+        <div className="innerCardBody">
           <h5 className="card-title">{title}</h5>
-          <h5>{responsive}</h5>
-          <br />
+          <h5 className="responsiveTitle">{responsive}</h5>
           <p className="pTag">{description}</p>
           <div className="buttonPad">
-            <div></div>
+          
           </div>
 
-         
+          </div>
         </div>
 
       </div>
