@@ -2,14 +2,12 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   color: black;
 }
 
-h5{
-
+h5 {
   font-weight: bold;
-  
 }
 
 /*-------------------- NAVBAR HEADER ----------------------------*/
@@ -60,106 +58,79 @@ h5{
   list-style: none;
 }
 /*------------------------ About Section-------------------*/
-p{
+p {
   font-weight: 800;
   line-height: 25px;
-  
-  
-  
+
   text-emphasis: bold;
 }
-
-
 
 :hover .courseGrades {
   color: white;
   text-decoration: none;
 }
 
-
-.divAbout{
-display: flex;
-justify-content: center;
-
+.divAbout {
+  display: flex;
+  justify-content: center;
 }
 .innerDivAbout {
-width: 50%;
-
+  width: 50%;
 }
 
-
-
-.about{
+.about {
   background-color: rgb(215, 213, 213);
   /*height: 135vh; */
   width: 100%;
   position: relative;
   background-size: cover;
-  background: rgba(0,0,0,0.67);
-  
+  background: rgba(0, 0, 0, 0.67);
+
   background-image: url("/background.png");
 }
-.divTitle .title{
+.divTitle .title {
   text-align: center;
   padding-top: 50px;
   margin-top: 0px;
   text-shadow: 1px 1px 1px #1f1f1f;
-  
-
-
 }
 
-.listLanguages{
+.listLanguages {
   text-align: start;
 }
 
- .title{
+.title {
   text-align: center;
   margin-top: 10px;
   color: white;
-
-
 }
 
-.bodyAbout{
- 
- color:white;
-text-align: justify;
-text-align: center;
-
- 
+.bodyAbout {
+  color: white;
+  text-align: justify;
+  text-align: center;
 }
 
-.insidePicDiv{
-
+.insidePicDiv {
   width: 100%;
   position: relative;
   background-size: cover;
   height: 400px;
   width: 500px;
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
- 
-  
+
   background-image: url("/dinopic.jpg");
 }
 
-.picDiv{
-
+.picDiv {
   margin-left: 20px;
-  margin-right:20px;
-  display:flex;
+  margin-right: 20px;
+  display: flex;
   align-items: center;
   justify-content: center;
   padding-top: 3%;
   padding-bottom: 3%;
- 
- 
-
-
 }
-
-
-
 
 /*
 .dinoPic {
@@ -193,11 +164,6 @@ text-align: center;
 
 */
 
-
-
-
-
-
 /*
 @media screen and (max-width: 1080px) {
   
@@ -216,13 +182,12 @@ text-align: center;
 */
 
 @media screen and (max-width: 900px) {
- .picDiv{
-  display:flex;
-  align-items: center;
-  justify-content: center;
-
- }
- /*
+  .picDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  /*
   .about{
     
     height: 165vh;
@@ -230,25 +195,18 @@ text-align: center;
   */
 }
 
-
-
 @media screen and (max-width: 800px) {
-
-  .picDiv{
-    display:flex;
+  .picDiv {
+    display: flex;
     align-items: center;
     justify-content: center;
-  
-   }
- /* 
+  }
+  /* 
 .about{ 
   height:175vh;
 
 }  
   */
-  
-  
-  
 }
 
 /*
@@ -278,27 +236,14 @@ text-align: center;
 
 */
 
-
-
-
-
-
-
-
-
-
-@media screen and (max-width:500px) {
-
-  .about .divTitle .title{
-
+@media screen and (max-width: 500px) {
+  .about .divTitle .title {
     font-size: xx-large;
   }
-  
- 
-/*  
+
+  /*  
 .about{height:210vh;}
 */
-
 }
 /*
 @media screen and (max-width:450px)
@@ -308,19 +253,14 @@ text-align: center;
 }
 */
 @media screen and (max-width: 400px) {
-  
-  
   .dinoPic {
-    
     width: 300px;
-   
   }
-   
- .about .divTitle .title{
 
+  .about .divTitle .title {
     font-size: xx-large;
   }
-/*
+  /*
   .about{height:250vh;}
 */
 }
@@ -345,47 +285,38 @@ text-align: center;
 */
 /*--------------------------Projects----------------------------*/
 @media screen and (max-width: 400px) {
-  
-  
-.projectsHeader{
-  padding-top: 20px;
-text-align: center;
-font-size: 2rem;
+  .projectsHeader {
+    padding-top: 20px;
+    text-align: center;
+    font-size: 2rem;
 
-text-shadow: 1px 1.5px 1px #1f1f1f;
+    text-shadow: 1px 1.5px 1px #1f1f1f;
+  }
 }
 
-
-
-}
-
-
-.projectsHeader{
+.projectsHeader {
   padding-top: 40px;
   padding-bottom: 50px;
-text-align: center;
-text-shadow: 1px 1.5px 1px #1f1f1f;
+  text-align: center;
+  text-shadow: 1px 1.5px 1px #1f1f1f;
 }
 
-.insidePicDiv{
-
+.insidePicDiv {
   width: 100%;
   position: relative;
   background-size: cover;
   height: 400px;
   width: 500px;
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
- 
-  
+
   background-image: url("/dinopic.jpg");
 }
 
-.card-img-top{
-  width:100%;
+.card-img-top {
+  width: 100%;
   object-fit: cover;
   object-position: center center;
 }
-
 
 a {
   color: inherit;
@@ -401,13 +332,10 @@ a {
   margin-top: 100px;
 }
 
-.projectEvent{
+.projectEvent {
   display: flex;
   justify-content: center;
- }
-
-
-
+}
 
 img {
   height: 200px;
@@ -415,44 +343,36 @@ img {
 
 .projectLearning {
   margin-left: 50px;
-  
-
-
 }
-.projectCard{
+.projectCard {
   display: flex;
- margin-top: 0%;
+  margin-top: 0%;
   flex-direction: column;
-  
-
 }
-
-
-
 
 .projectCatalogue {
-
-  
-
   display: flex;
   flex-direction: column;
-
- 
-  
-
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+  transition:  transform 1s ease-in;
+  cursor: grab;
+
 }
-.buttonDiv { display: flex;
+.projectCatalogue:hover{
+transform: scale(1.1);
+
+}
+
+.buttonDiv {
+  display: flex;
   flex-direction: column;
   justify-content: flex-end;
 
- height:relative;
-  padding-bottom:10px ;
+  height: relative;
+  padding-bottom: 10px;
   width: 50%;
   margin-left: 2%;
-
 }
-
 
 .buttonProject {
   color: black;
@@ -468,102 +388,89 @@ img {
   margin-top: 250px;
 }
 
-
 .projects-grid {
-  
-  
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   grid-gap: 4rem;
   width: 100%;
   max-width: 1280px;
-  
+
   margin-left: 50px;
   margin-bottom: 6rem;
   margin: 0 auto;
-  margin-bottom:50px ;
-  
+  margin-bottom: 50px;
 }
 
-.responsiveTitle{
-
+.responsiveTitle {
   font-family: italic;
   opacity: 0.5;
 }
-.pTag{
+.pTag {
   position: relative;
   padding-top: 20px;
 }
 
-.card-body{
+.card-body {
   display: flex;
   flex-direction: column;
-  height:250px;
- 
-  
+  height: 250px;
 }
 
-
- /*.projects-section{
+/*.projects-section{
 
   height: 160vh;
  }
  */
-@media(max-width:1200px){
-
- /* .projects-section{
+@media (max-width: 1200px) {
+  /* .projects-section{
     height: 170vh;
   }*/
-  .projects-grid{
+  .projects-grid {
     margin-left: 0%;
   }
 }
 
-@media(max-width:1102px){
-
-/*  .projects-section{
+@media (max-width: 1102px) {
+  /*  .projects-section{
     height: 240vh;
   }
   */
 }
 
-@media(max-width:719px){
-/*
+@media (max-width: 719px) {
+  /*
   .projects-section{
     height: 260vh;
   }
   */
 }
 
-@media(max-width:718px){
-/*
+@media (max-width: 718px) {
+  /*
   .projects-section{
     height: 420vh;
   }
   */
 }
 
-
-@media(max-width:703px){
-/*
+@media (max-width: 703px) {
+  /*
   .projects-section{
     height: 430vh;
   }
   */
 }
 
-@media(max-width:637px){
-/*
+@media (max-width: 637px) {
+  /*
   .projects-section{
     height: 440vh;
   }
   */
 }
 
-
-
-@media(max-width:491px){
-  .projects-grid{
+@media (max-width: 491px) {
+  .projects-grid {
     margin-left: 0%;
     margin-right: 200px;
   }
@@ -583,13 +490,13 @@ img {
 
   */
 
-  .projects-grid{
+  .projects-grid {
     margin-left: 0%;
   }
 }
 
-@media(max-width:367px){
-  .projects-grid{
+@media (max-width: 367px) {
+  .projects-grid {
     margin-left: 0%;
     margin-right: 200px;
   }
@@ -600,39 +507,26 @@ img {
   */
 }
 
-
-
-
-
-
 @media screen and (max-width: 500px) {
-  
-  .about .title{
+  .about .title {
     text-align: center;
     margin-top: 0px;
     font-size: large;
   }
-
 }
 
 @media screen and (max-width: 400px) {
   .dinoPic {
-    
     width: 300px;
-   
   }
-  .about .title{
+  .about .title {
     text-align: center;
     margin-top: 0px;
     font-size: large;
   }
 }
 
-
-
 /*------------------ Contact Page -----------------*/
-
-
 
 .contact-section {
   display: flex;
@@ -650,14 +544,13 @@ img {
   font-size: 3rem;
   text-shadow: 1px 1.5px 1px #1f1f1f;
 }
-@media (max-width:503px){
-  .contact-section{
+@media (max-width: 503px) {
+  .contact-section {
     height: 120vh;
   }
- 
 }
-@media (max-width:348px){
-  .contact-section{
+@media (max-width: 348px) {
+  .contact-section {
     height: 128vh;
   }
 }
@@ -692,11 +585,9 @@ img {
   transform: translateY(8px);
 }
 
-/*------------------ Footer ---------------------*/ 
+/*------------------ Footer ---------------------*/
 
-.footerDiv{
-
-  
+.footerDiv {
 }
 
 footer p {
@@ -706,7 +597,7 @@ footer p {
 footer {
   font-weight: 300;
   display: flex;
-  max-width : 100%;
+  max-width: 100%;
   justify-content: center;
   flex-direction: column;
   padding: 2rem;
@@ -730,12 +621,11 @@ footer i {
   }
 }
 
-#backToTop{
+#backToTop {
   text-decoration: none;
   color: white;
-
 }
 
-#backToTop:hover{
-color:white;
+#backToTop:hover {
+  color: white;
 }

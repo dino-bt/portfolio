@@ -21,8 +21,8 @@ export default function About() {
             <h1 className="title"> Daniel (Dino) Ben Tovim </h1>
           </div>
           <div id="picDiv" className="picDiv">
-          <div className= "insidePicDiv"></div>
-          {/*<img className="dinoPic" src="/dinopic.jpg" alt="dinopic" /> */}
+            <div className="insidePicDiv"></div>
+            {/*<img className="dinoPic" src="/dinopic.jpg" alt="dinopic" /> */}
           </div>
           <div className="divAbout">
             <div className="innerDivAbout">
@@ -81,7 +81,7 @@ export default function About() {
             href="https://dino-itunes-new.herokuapp.com/"
           />
 
-           <ProjectCards
+          <ProjectCards
             src="/events.jpeg"
             title="TETRIS"
             responsive="Not Responsive only for Desktop"
@@ -123,7 +123,6 @@ export default function About() {
         calculator."
             href="https://dino-calculator.herokuapp.com/"
           />
-         
         </div>
       </section>
 
@@ -133,13 +132,6 @@ export default function About() {
           <p>Here are my contact details!</p>
         </div>
         <div className="contact-links">
-          <a
-            href="https://www.facebook.com/dinobt"
-            target="_blank"
-            className="btn contact-details"
-          >
-            <i className="fab fa-facebook-square"></i> Facebook
-          </a>
           <a
             id="profile-link"
             href="https://github.com/dino-bt"
