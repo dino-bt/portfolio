@@ -82,22 +82,15 @@ export default function About() {
           />
 
           <ProjectCards
-            src="/events.jpeg"
-            title="TETRIS"
-            responsive="Not Responsive only for Desktop"
-            description="A Project built using React, replicates the famous tetris
-        game. Please note that due to custimisation the project will
-        only work on a desktop computer."
-            href="https://whispering-anchorage-45288.herokuapp.com/"
-          />
-          <ProjectCards
-            src="/todolist.jpg"
-            title="To Do List"
+            src="/tanktop.jpg"
+            title="BCM Track Display"
             responsive="Responsive"
-            description="A project built with React Native. It creates posts and is
-        able to delete/complete Todo's from a list."
-            href="https://dino-todo-list.herokuapp.com/"
+            description="Built a monitoring solution on Ubuntu to provide status information of various services using API calls to third parties and a NodeJS API server to receive POST requests.
+          A full-stack website was built on NodeJs and React with full custom CSS styling overlays."
+            href="http://197.221.16.229:3000/"
           />
+
+
           <ProjectCards
             src="/learning.jpeg"
             title="Track Your Learning"
@@ -107,14 +100,9 @@ export default function About() {
         Nodejs/Express."
             href="https://dino-learning-log.herokuapp.com/"
           />
-          <ProjectCards
-            src="/tanktop.jpg"
-            title="BCM Track Display"
-            responsive="Responsive"
-            description="Built a monitoring solution on Ubuntu to provide status information of various services using API calls to third parties and a NodeJS API server to receive POST requests.
-            A full-stack website was built on NodeJs and React with full custom CSS styling overlays."
-            href="http://197.221.16.229:3000/"
-          />
+
+
+
           <ProjectCards
             src="/calculator.jpg"
             title="Calculator"
@@ -123,7 +111,36 @@ export default function About() {
         calculator."
             href="https://dino-calculator.herokuapp.com/"
           />
+
+
+          <ProjectCards
+          src="/events.jpeg"
+          title="TETRIS"
+          responsive="Not Responsive only for Desktop"
+          description="A Project built using React, replicates the famous tetris
+    game. Please note that due to custimisation the project will
+    only work on a desktop computer."
+          href="https://whispering-anchorage-45288.herokuapp.com/"
+        />
+        <ProjectCards
+          src="/todolist.jpg"
+          title="To Do List"
+          responsive="Responsive"
+          description="A project built with React Native. It creates posts and is
+    able to delete/complete Todo's from a list."
+          href="https://dino-todo-list.herokuapp.com/"
+        />
+
+
+
+
+
         </div>
+
+      
+
+
+
       </section>
 
       <section id="contact" className="contact-section">
