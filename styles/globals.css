@@ -85,8 +85,8 @@ p {
   position: relative;
   background-size: cover;
   background: rgba(0, 0, 0, 0.67);
-
-  background-image: url("/background.png");
+background-image: url("/background.png");
+  
 }
 .divTitle .title {
   text-align: center;
@@ -408,6 +408,7 @@ transform: scale(1.1);
 .pTag {
   position: relative;
   padding-top: 20px;
+  font-size: 12px;
 }
 
 .card-body {

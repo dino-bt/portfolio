@@ -94,7 +94,7 @@ export default function About() {
             src="/todolist.jpg"
             title="To Do List"
             responsive="Responsive"
-            description="A project built with React Native. It creates posts and is.
+            description="A project built with React Native. It creates posts and is
         able to delete/complete Todo's from a list."
             href="https://dino-todo-list.herokuapp.com/"
           />
@@ -102,18 +102,18 @@ export default function About() {
             src="/learning.jpeg"
             title="Track Your Learning"
             responsive="Responsive"
-            description="Full Authentication Login and Register website that tracks.
+            description="Full Authentication Login and Register website that tracks
         you're learning. Built with JavaScript React and
         Nodejs/Express."
             href="https://dino-learning-log.herokuapp.com/"
           />
           <ProjectCards
             src="/tanktop.jpg"
-            title="Gym Store"
-            responsive="Not Responsive only for Desktop"
-            description="Online sport wear shopping catalogue, created with vanilla.
-        JavaScript, HTML, CSS."
-            href="https://new-catalogue-project.herokuapp.com/"
+            title="BCM Track Display"
+            responsive="Responsive"
+            description="Built a monitoring solution on Ubuntu to provide status information of various services using API calls to third parties and a NodeJS API server to receive POST requests.
+            A full-stack website was built on NodeJs and React with full custom CSS styling overlays."
+            href="http://197.221.16.229:3000/"
           />
           <ProjectCards
             src="/calculator.jpg"
