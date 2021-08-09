@@ -359,9 +359,25 @@ img {
 
 }
 .projectCatalogue:hover{
-transform: scale(1.1);
+transform: scale(1.05);
 
 }
+
+@media screen and (max-width: 600px){
+.projectCatalogue{
+
+  transition:  transform 1s ease-in;
+  cursor: grab;
+
+}
+.projectCatalogue:hover{
+  transform: scale(1.01);
+  
+  }
+
+}
+
+
 
 .buttonDiv {
   display: flex;

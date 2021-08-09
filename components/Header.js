@@ -9,7 +9,7 @@ const Header = () => {
             <Link href="/">
               <a className="navbar-brand">ABOUT</a>
             </Link>
-          </li>
+            </li>
 
           <li>
             

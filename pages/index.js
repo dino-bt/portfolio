@@ -86,7 +86,7 @@ export default function About() {
             title="BCM Track Display"
             responsive="Responsive"
             description="Built a monitoring solution on Ubuntu to provide status information of various services using API calls to third parties and a NodeJS API server to receive POST requests.
-          A full-stack website was built on NodeJs and React with full custom CSS styling overlays."
+          A full-stack website was built on NodeJs and React."
             href="http://197.221.16.229:3000/"
           />
 
