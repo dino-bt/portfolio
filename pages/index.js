@@ -71,6 +71,17 @@ export default function About() {
         <h1 className="projectsHeader">Here are my Projects</h1>
 
         <div className="projects-grid">
+
+
+        <ProjectCards
+            src="/learning.jpeg"
+            title="Franklees"
+            responsive="Responsive"
+            description="A commercial underwear store that I customised, such as CSS animations, built a side Cart and fixed bugs. This is an ongoing project new features will be added in the near future."
+            href="https://franklees.co.za/"
+          />
+          
+          
           <ProjectCards
             src="/itunes.jpg"
             title="Itunes Search Engine"
@@ -91,18 +102,10 @@ export default function About() {
           />
 
 
-          <ProjectCards
-            src="/learning.jpeg"
-            title="Track Your Learning"
-            responsive="Responsive"
-            description="Full Authentication Login and Register website that tracks
-        you're learning. Built with JavaScript React and
-        Nodejs/Express."
-            href="https://dino-learning-log.herokuapp.com/"
-          />
+          
 
 
-
+          {/* 
           <ProjectCards
             src="/calculator.jpg"
             title="Calculator"
@@ -131,13 +134,12 @@ export default function About() {
           href="https://dino-todo-list.herokuapp.com/"
         />
 
-
+*/}
 
 
 
         </div>
 
-      
 
 
 

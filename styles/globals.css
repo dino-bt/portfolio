@@ -363,6 +363,8 @@ transform: scale(1.05);
 
 }
 
+
+
 @media screen and (max-width: 600px){
 .projectCatalogue{
 
@@ -383,6 +385,7 @@ transform: scale(1.05);
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
+  
 
   height: relative;
   padding-bottom: 10px;
