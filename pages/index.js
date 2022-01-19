@@ -34,15 +34,15 @@ export default function About() {
                 music – my capability is multi-faceted and when I’m not coding,
                 I’m locked away in my studio producing tracks for an upcoming
                 release.
-                <br />
-                <br />
+                <br/>
+                <br/>
                 Not one to limit myself to possibility, I enjoy creating and
                 developing solutions to allow for seamless user interfaces and a
                 frictionless customer experience. I pride myself on experiential
-                learning, having just completed a full-stack web development
-                Bootcamp, achieving an average grade of 96%-my proficiency
-                includes and is not limited to: <br />
-                <br />
+                learning, having completed a full-stack web development
+                Bootcamp in June 2021, achieving an average grade of 96%-my proficiency
+                includes and is not limited to: <br/>
+                <br/>
                 <strong>
                   <ul className="listLanguages">
                     <li>HTML</li>
@@ -54,12 +54,12 @@ export default function About() {
                   </ul>
                 </strong>
                 <br />
-                <a
-                  className="courseGrades"
-                  href="https://www.hyperiondev.com/portfolio/62185/"
-                >
-                  Click here to check out my course grades.
-                </a>
+                Since finishing the bootcamp, was approached by Hyperion Dev to review other students code.
+                Job description includes, asynchronous code reviews for checking the efficiency of Completeness, Efficiency, Style,
+                Documentation of code submissions.
+
+
+
               </p>
             </div>
           </div>
@@ -73,15 +73,15 @@ export default function About() {
         <div className="projects-grid">
 
 
-        <ProjectCards
+          <ProjectCards
             src="/learning.jpeg"
             title="Franklees"
             responsive="Responsive"
             description="A commercial underwear store that I customised, such as CSS animations, built a side Cart and fixed bugs. This is an ongoing project new features will be added in the near future."
             href="https://franklees.co.za/"
           />
-          
-          
+
+
           <ProjectCards
             src="/itunes.jpg"
             title="Itunes Search Engine"
@@ -102,7 +102,7 @@ export default function About() {
           />
 
 
-          
+
 
 
           {/* 
